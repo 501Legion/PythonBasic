@@ -6,3 +6,4 @@ def sum(a,b):
 
 val = sum(3,5)
 print(val)
+
