@@ -96,8 +96,25 @@ while True:
     for item in order_list:
         print(f"주문기록: {item}")
 
-
 # 6번 추가 주문하시겠습니까? -> input()
 # 결과 : y/n
 # y : 1번으로 이동
 # n: 출력(주문 페이지로 이동)
+    print(">> MSG: 추가 주문하시겠습니까?")
+    while True:
+        yn = input(">> y/n: ")
+
+        if yn == "y":
+            pass
+        elif yn == "n":
+            pass
+        else:
+            print(">> WARING: 올바른 값을 입력하세요.")
+
+
+
+# 5. 메뉴 서비스
+# select_num이 1,2,3,4인 경우
+    if select_num == 1:
+        pass
+

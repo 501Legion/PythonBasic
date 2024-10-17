@@ -12,3 +12,4 @@ def select_menu(menu_cnt: int) -> int:
         else:
             break
     return order
+
